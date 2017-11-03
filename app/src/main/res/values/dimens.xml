@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <!--MATERIAL DESIGN KEYLINES-->
+    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="keyline_1_tablet">24dp</dimen>
+    <dimen name="keyline_1_minus_8dp">8dp</dimen>
+    <dimen name="keyline_1_minus_4dp">4dp</dimen>
+    <dimen name="keyline_2">72dp</dimen>
+    <dimen name="keyline_2_tablet">80dp</dimen>
+    <dimen name="keyline_2_minus_16dp">56dp</dimen>
+
+    <!--MOBILE-->
+    <!--Screen edge left and right margins-->
+    <dimen name="margin_material">@dimen/keyline_1</dimen>
+    <!--Content left margin from screen edge-->
+    <dimen name="margin_material_content">72dp</dimen>
+    <dimen name="margin_material_half">@dimen/keyline_1_minus_8dp</dimen>
+
+    <!--TABLET-->
+    <!--Screen edge left and right margins-->
+    <dimen name="margin_material_tablet">@dimen/keyline_1_tablet</dimen>
+    <!--Content left margin from screen edge-->
+    <dimen name="margin_material_content_tablet">@dimen/keyline_2_tablet</dimen>
+
+    <!--ONBOARDING-->
+    <dimen name="ob_indicator_height">40dp</dimen>
+    <dimen name="ob_indicator_margin">20dp</dimen>
+    <dimen name="ob_indicator_container_height">60dp</dimen>
+    <dimen name="ob_image_padding">30dp</dimen>
+
+    <!--Main List Row-->
+    <dimen name="main_list_row_padding">@dimen/padding_10dp</dimen>
+    <dimen name="main_list_row_min_height">74dp</dimen>
+
+    <dimen name="height_material_subheader">48dp</dimen>
+
+    <!--Credit App Keylines-->
+    <!--TextInputLayout already has a built-in 4dp padding, so only 12dp is needed-->
+    <dimen name="margin_text_input">12dp</dimen>
+    <dimen name="padding_credit_app_vertical">6dp</dimen>
+    <dimen name="padding_credit_app_horizontal">6dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">270dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="list_item_height">32dp</dimen>
+    <dimen name="list_item_icon_dimension">32dp</dimen>
+    <dimen name="scrim_height_top">64dp</dimen>
+    <dimen name="scrim_height_bottom">64dp</dimen>
+    <dimen name="progressbar_dimension">1200dp</dimen>
+    <dimen name="item_padding">10dp</dimen>
+    <dimen name="text_left_margin">24dp</dimen>
+    <dimen name="item_text_left_margin">35dp</dimen>
+    <dimen name="image_home_height">230dp</dimen>
+    <dimen name="image_select_trim_height">180dp</dimen>
+    <!-- Paddings and margins -->
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_6dp">6dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="margin_25dp">25dp</dimen>
+    <dimen name="margin_28dp">28dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="margin_60dp">60dp</dimen>
+    <dimen name="font_size_12sp">12sp</dimen>
+    <!-- Font Sizes -->
+    <dimen name="font_size_default">12sp</dimen>
+
+    <!-- Tabstepper-->
+    <dimen name="material_stepper_bottombar_font">16sp</dimen>
+    <dimen name="material_stepper_optional_font">12sp</dimen>
+    <dimen name="material_stepper_optional_circle_font">12sp</dimen>
+    <dimen name="material_stepper_step_active_font">14sp</dimen>
+    <dimen name="material_stepper_step_circle">24dp</dimen>
+    <dimen name="material_stepper_connector">1dp</dimen>
+
+    <!-- FJ Redesign -->
+    <dimen name="filter_image_button_icon_width">70dp</dimen>
+
+    <!--Confirm Details-->
+    <dimen name="confirm_details_header_padding">14dp</dimen>
+</resources>

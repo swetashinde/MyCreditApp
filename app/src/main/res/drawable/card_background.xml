@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright © 2017 AutoGravity. All rights reserved.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="5dip" />
+            <stroke android:width="0.25dp"
+                android:color="#DFDFDF" />
+            <solid android:color="@color/colorWhite" />
+        </shape>
+    </item>
+</selector>

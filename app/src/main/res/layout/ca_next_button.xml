@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2017 AutoGravity. All rights reserved.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:background="@drawable/ca_next_button_background"
+    android:layout_margin="@dimen/keyline_1_minus_8dp"
+    >
+
+    <TextView
+        android:id="@+id/next_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ca_next"
+        android:layout_centerInParent="true"
+        android:drawablePadding="@dimen/keyline_1_minus_8dp"
+        android:drawableRight="@drawable/right_arrow_white"
+        />
+</RelativeLayout>
+

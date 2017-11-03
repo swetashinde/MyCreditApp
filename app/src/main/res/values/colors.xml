@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#FF377AD5</color>
+    <color name="action_bar_text_color">#744543</color>
+    <color name="progress_tint">#6BE0A8</color>
+    <color name="background_tint">@color/formHeaderBackground</color>
+    <color name="formHeaderBackground">#F8F8F8</color>
+    <color name="navigation_background_color">#F2F2F2</color>
+
+    <color name="ca_navigation_text_complete">#5A6372</color>
+    <color name="ca_navigation_text_in_progress">#5A6372</color>
+    <color name="ca_navigation_text_lock">#ACB5C4</color>
+
+    <color name="ca_navigation_default">#FFFFFF</color>
+    <color name="ca_navigation_highlight">#F7FAFB</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <!-- Credit App (Cards) Colors-->
+    <color name="ca_title_text_color">#3D444E</color>
+    <color name="ca_sub_title_text_color">#5A6372</color>
+    <color name="ca_fine_print_text_color">#B8BCC5</color>
+    <color name="ca_accent_text_color">#4991E4</color>
+    <color name="ca_input_text_color">#5A6372</color>
+    <color name="ca_hint_text_color">#5A6372</color>
+    <color name="ca_next_button">#4991E4</color>
+    <color name="ca_next_button_pressed">#004AD5</color>
+    <color name="ca_protection_background">#D8F8E8</color>
+    <color name="ca_rent_button">#ffffff</color>
+    <color name="ca_rent_button_pressed">#5A6372</color>
+
+
+
+</resources>

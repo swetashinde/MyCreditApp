@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name">MyCreditApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_fragment">Hello First Fragment</string>
+    <string name="second_fragment">Hello Second Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- CA Strings-->
+    <!--Titles-->
+    <string name="ca_page_title_personal_information">Personal Information</string>
+    <string name="ca_page_title_residence_information">Residence Information</string>
+    <string name="ca_page_title_employment_information">Employment Information</string>
+    <string name="ca_page_title_identification">Identification</string>
+    <string name="ca_page_title_review">Review</string>
+
+    <!--Footer-->
+    <string name="ca_navigation_footer_label_remove">Changed your mind applying with joint credit?</string>
+    <string name="ca_navigation_footer_label_add">Intend to apply with joint credit?</string>
+    <string name="ca_navigation_footer_action_remove">Remove Co-Applicant</string>
+    <string name="ca_navigation_footer_action_add">Add Co-Applicant</string>
+    <string name="ca_navigation_dialog_title">Are you sure you want to remove co-applicant?</string>
+    <string name="ca_navigation_dialog_message">By clicking \"Remove\", all co-applicant information will be cleared.</string>
+    <string name="ca_navigation_dialog_positive_text">Remove</string>
+    <string name="ca_navigation_dialog_negative_text">Keep</string>
+
+    <!-- Name-->
+    <string name="ca_whats_your_name">What\'s your name?</string>
+    <string name="ca_already_have_an_account">Already have an account?</string>
+    <string name="ca_log_in">Log in </string>
+    <string name="ca_first_name_title">First Name</string>
+    <string name="ca_first_name_hint">Enter first name</string>
+    <string name="ca_first_name_error">Enter a valid first name</string>
+    <string name="ca_last_name_title">Last Name</string>
+    <string name="ca_last_name_hint">Enter last name</string>
+    <string name="ca_last_name_error">Enter a valid last name</string>
+
+
+    <!-- Co Applicant -->
+    <string name="ca_whats_your_coapp_name">What\'s your co-applicant\'s name?</string>
+    <string name="ca_more_about_coapp">Tell us more about your co-applicant</string>
+
+    <!-- Contact Info-->
+    <string name="ca_more_about_yourself">Tell us more about yourself</string>
+    <string name="ca_email_title">Email Address</string>
+    <string name="ca_email_hint">Enter email address</string>
+    <string name="ca_email_error">Enter a valid email address</string>
+    <string name="ca_dob_title">Date of Birth</string>
+    <string name="ca_dob_hint">MM/DD/YYYY</string>
+    <string name="ca_dob_error">You must be at least 18 to apply</string>
+    <string name="ca_mobile_phone_title">Mobile Phone</string>
+    <string name="ca_mobile_phone_hint">Enter mobile phone</string>
+    <string name="ca_mobile_phone_error">Enter a valid phone number</string>
+    <string name="ca_home_phone_title">Home Phone (optional)</string>
+    <string name="ca_home_phone_hint">Enter home phone</string>
+    <string name="ca_home_phone_error">Enter a valid phone number</string>
+    <string name="ca_phone_disclaimer_kia">By providing your phone number, you agree to be contacted
+    by automated and/or prerecorded means by Kia Motors Finance and/or Kia dealers.</string>
+
+    <!-- Residence Type-->
+    <string name="ca_whats_your_residence_type">What\'s your residence status?</string>
+    <string name="ca_coapp_whats_your_residence_type">What\'s your co-applicant\'s residence status?</string>
+    <string name="ca_residence_type_rent">Rent</string>
+    <string name="ca_residence_type_own">Own</string>
+    <string name="ca_residence_type_live_with_family">Live with family</string>
+
+    <!-- Residence Address-->
+    <string name="ca_whats_your_current_address">Tell us about your current residence</string>
+    <string name="ca_whats_your_previous_address">Tell us about your previous residence</string>
+    <string name="ca_residence_type_title">Residence Status</string>
+    <string name="ca_residence_type_hint">Select residence status</string>
+    <string name="ca_residence_type_error">Please select a residence type</string>
+    <string name="ca_address_title">Address</string>
+    <string name="ca_address_hint">Enter address</string>
+    <string name="ca_address_error">Enter a valid address</string>
+    <string name="ca_address_line_2_title">Address Line 2</string>
+    <string name="ca_address_line_2_hint">Apt, Suite, Bldg #</string>
+    <string name="ca_address_line_2_error">Enter a valid value</string>
+    <string name="ca_city_title">City</string>
+    <string name="ca_city_hint">Enter city</string>
+    <string name="ca_city_error">Enter a valid city</string>
+    <string name="ca_state_title">State</string>
+    <string name="ca_state_hint">State</string>
+    <string name="ca_state_error">Enter state</string>
+    <string name="ca_zip_title">Zip Code</string>
+    <string name="ca_zip_hint">Zip</string>
+    <string name="ca_zip_error">Enter zip</string>
+    <string name="ca_state_picker_title">Select your state</string>
+    <string name="ca_relationship_hint">Select</string>
+    <string name="ca_relationship_title">Relationship to Applicant</string>
+    <string name="ca_relationship_error">Select relationship</string>
+
+    <!-- Residence Details-->
+    <string name="ca_tell_us_more_about_your_residence">Tell us more about your current residence</string>
+    <string name="ca_tell_us_more_about_your_prev_residence">Tell us more about your previous residence</string>
+    <string name="ca_move_in_title">Move In Date</string>
+    <string name="ca_move_in_hint">MM/YYYY</string>
+    <string name="ca_move_in_error">Please enter valid dates</string>
+    <string name="ca_move_out_title">Move Out Date</string>
+    <string name="ca_move_out_hint">MM/YYYY</string>
+    <string name="ca_move_out_error">Please enter valid dates</string>
+    <string name="ca_mortgage_title">Mortgage / Rent Payment</string>
+    <string name="ca_mortgage_hint">Enter payment</string>
+    <string name="ca_mortgage_error">Enter a valid value</string>
+
+    <!-- Employment Type-->
+    <string name="ca_whats_your_employment_status">What\'s your employment status?</string>
+    <string name="ca_employment_status_full_time">Full-Time</string>
+    <string name="ca_employment_status_part_time">Part-Time</string>
+    <string name="ca_employment_status_retired">Retired</string>
+    <string name="ca_employment_status_other">Other</string>
+
+    <!-- Employment Info-->
+    <string name="ca_tell_us_about_your_employment">Tell us more about your current employer</string>
+    <string name="ca_tell_us_about_your_retirement">When was your retirement start date?</string>
+    <string name="ca_employer_type_title">Employment Status</string>
+    <string name="ca_employer_type_hint">Select employment status</string>
+    <string name="ca_employer_type_error">Please select an employment type</string>
+    <string name="ca_employer_name_title">Employer Name</string>
+    <string name="ca_employer_name_hint">Enter employer name</string>
+    <string name="ca_employer_name_error">Enter a valid name</string>
+    <string name="ca_employer_title_title">Title</string>
+    <string name="ca_employer_title_hint">Enter title</string>
+    <string name="ca_employer_title_error">Enter a valid title</string>
+    <string name="ca_employer_start_date_title">Start Date</string>
+    <string name="ca_employer_start_date_hint">MM/YYYY</string>
+    <string name="ca_employer_start_date_error">Enter a valid date</string>
+    <string name="ca_employer_end_date_title">End Date</string>
+    <string name="ca_employer_end_date_hint">MM/YYYY</string>
+    <string name="ca_employer_end_date_error">Enter a valid date</string>
+    <string name="ca_employer_retirement_start_date_title">Retirement Start Date</string>
+    <string name="ca_employer_retirement_start_date_hint">MM/YYYY</string>
+    <string name="ca_employer_retirement_start_date_error">Enter a valid date</string>
+    <string name="ca_employer_phone_number_title">Employer Phone Number</string>
+    <string name="ca_employer_phone_number_hint">Enter employer phone number</string>
+    <string name="ca_employer_phone_number_error">Enter a valid phone number</string>
+    <string name="ca_employment_gross_income_title">Gross Income</string>
+    <string name="ca_employment_gross_income_hint">Enter gross income</string>
+    <string name="ca_employment_gross_income_error">Enter a valid value</string>
+    <string name="ca_employment_income_frequency_title">Monthly/Annually</string>
+    <string name="ca_employment_income_frequency_hint">Frequency</string>
+    <string name="ca_employment_income_frequency_error">Select income frequency</string>
+
+    <!-- Previous Employment Type-->
+    <string name="ca_what_was_your_previous_employment_status">What was your previous employment status?</string>
+    <string name="ca_prev_employment_reason">This information is needed because you have worked at your current employer for less than 2 years.</string>
+
+    <!-- Previous Employment Info-->
+    <string name="ca_tell_us_more_about_your_previous_employment">Tell us more about your previous employer</string>
+
+
+    <!-- Co-Applicant Question-->
+    <string name="applicant_label">Applicant</string>
+    <string name="coapplicant_label">Co-Applicant</string>
+
+    <!-- Co-Applicant Question-->
+    <string name="ca_what_type_of_application">What type of application?</string>
+
+    <!-- Other Income Question-->
+    <string name="ca_do_you_have_other_income">Do you have any other income?</string>
+    <string name="ca_yes">Yes</string>
+    <string name="ca_no">No</string>
+    <string name="ca_individual">Individual</string>
+    <string name="ca_joint">Joint</string>
+
+    <!-- Other Income Info-->
+    <string name="ca_tell_us_about_your_other_income">Tell us a bit more about your other income</string>
+    <string name="ca_other_income_type_title">Income Type</string>
+    <string name="ca_other_income_type_hint">Select</string>
+    <string name="ca_other_income_type_error">Select an income type</string>
+    <string name="ca_other_income_amount_title">Income Amount</string>
+    <string name="ca_other_income_amount_hint">Enter Income</string>
+    <string name="ca_other_income_amount_error">Enter a valid income</string>
+    <string name="ca_other_income_frequency_title">Monthly/Annually</string>
+    <string name="ca_other_income_frequency_hint">Frequency</string>
+    <string name="ca_other_income_frequency_error">Select frequency</string>
+    <string name="ca_other_income_source_picker_title">Select income type</string>
+    <string name="ca_other_income_frequency_picker_title">Select income frequency</string>
+    <string name="ca_other_income_disclosure">You need not reveal alimony, child support, or separate maintenance income if you do not wish it to be considered as a basis for repaying this obligation.</string>
+    <string name="ca_monthly">Monthly</string>
+    <string name="ca_annually">Annually</string>
+    <!-- SSN-->
+    <string name="ca_verify_your_identity">Verify your identity</string>
+    <string name="ca_coapp_verify_your_identity">Verify your co-applicant\'s identity</string>
+    <string name="ca_ssn_explanation">Your SSN is used for identification purposes and is also required to obtain a credit report.</string>
+    <string name="ca_ssn_protection">Your information is safe with us. We use advanced encryption technology.</string>
+    <string name="ca_ssn_title">Social Security Number</string>
+    <string name="ca_ssn_hint">XXX - XX - XXXX</string>
+    <string name="ca_ssn_error">Please enter a valid ssn</string>
+
+    <!-- Review-->
+    <string name="ca_errors_on_page">There are some errors on this page.</string>
+
+    <!-- Login-->
+    <string name="ca_login_title">Log in to continue</string>
+    <string name="ca_login_forgot_password">Forgot password?</string>
+
+    <!-- Sign Up-->
+    <string name="ca_sign_up_title">Create an account to see your personalized offers</string>
+
+    <!-- Buttons-->
+    <string name="ca_next">NEXT</string>
+    <string name="ca_update">UPDATE</string>
+    <string name="ca_done">SUBMIT</string>
+
+    <!-- Error Dialogs-->
+    <string name="ca_submission_error_title">Error</string>
+    <string name="ca_submission_error_message">There was an error submitting your application, please try again later.</string>
+    <string name="ca_navigation_failed_title">Oops, incomplete section!</string>
+    <string name="ca_navigation_failed_message">Some answers need to be updated before you can proceed to other sections.</string>
+    <string name="ca_update_values_title">Oops, unsaved answers!</string>
+    <string name="ca_update_values_message">Answers need to be saved before you can proceed to other sections.</string>
+    <string name="pre_fill_with_license">Prefill with License</string>
+    <string name="first_name">John</string>
+    <string name="first_name_label">First Name</string>
+    <string name="personal_info_title">What\'s your name?</string>
+    <string name="last_name_label">Last Name</string>
+    <string name="last_name">Doe</string>
+    <string name="personal_info_contact_title">Tell us more about yourself</string>
+    <string name="dob_name_label">Date of Birth</string>
+    <string name="mobile_phone">(949) 123-5555</string>
+    <string name="dob">10/14/1984</string>
+    <string name="mobile_phone_label">Mobile Phone</string>
+    <string name="home_phone_label">Home Phone (optional)</string>
+    <string name="home_phone">(949) 234-0393</string>
+    <string name="residence_info_type_title">What\'s your residence status</string>
+    <string name="residence_info_address_title">Tell us about your current residence</string>
+    <string name="address1_label">Address</string>
+    <string name="address1">SandCanyon Ave</string>
+    <string name="address2">Address Line 2</string>
+    <string name="residence_info_details_title">Tell us more about your current residence</string>
+    <string name="employment_info_title">What\'s your employment status?</string>
+    <string name="employment_info_details_title">Tell us more about your current employer</string>
+    <string name="employer_title">Title</string>
+    <string name="employee_title">Title</string>
+    <string name="employee_title_hint">King in the North</string>
+    <string name="start_date_hint">MM/YYYY</string>
+    <string name="startdate_title">Start Date</string>
+    <string name="other_info_type_title">Do you have any other income?</string>
+    <string name="other_income_details_title">Tell us a bit more about your other income</string>
+    <string name="other_income_amount_title">Income Amount</string>
+    <string name="other_income_amount_hint">$9999</string>
+    <string name="other_income_period">Monthly/Annually</string>
+    <string name="other_income_pay_period">Monthly</string>
+
+    <string-array name="credit_navigation_array">
+        <item>Personal Information </item>
+        <item>Residence Information </item>
+        <item>Employment Information </item>
+        <item>Retirement Information</item>
+        <item>Review </item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright © 2017 AutoGravity. All rights reserved.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="90dip" />
+            <gradient android:angle="-90"
+                android:startColor="@color/ca_next_button_pressed"
+                android:endColor="@color/ca_next_button_pressed" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="90dip" />
+            <solid android:color="@color/ca_next_button" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="90dip" />
+            <gradient android:angle="-90"
+                android:startColor="@color/ca_next_button"
+                android:endColor="@color/ca_next_button" />
+        </shape>
+    </item>
+</selector>

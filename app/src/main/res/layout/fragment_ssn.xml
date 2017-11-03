@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.swetashinde.mycreditapp.fragments.PersonalInfoName"
+    android:layout_margin="30dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_blank_fragment"
+            android:id="@+id/textView"
+            android:layout_marginTop="@dimen/keyline_1_minus_8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/ca_verify_your_identity"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/ca_ssn_explanation"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_marginBottom="16dp"
+
+            >
+
+
+        </TextView>
+
+
+       
+       
+       
+        <TextView
+            android:layout_marginTop="16dp"
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/ca_ssn_title"
+            android:textColor="@color/ca_next_button"
+           />
+
+
+
+      
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/grossIncome"
+            android:hint="@string/ca_ssn_hint"
+            android:layout_margin="0dp"
+
+            />
+
+
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:background="@drawable/ca_next_button_background"
+            android:layout_marginTop="16dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
