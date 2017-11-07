@@ -58,6 +58,15 @@ public class PersonalInfoContact extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
+    public static PersonalInfoContact getNewInstance(String param1, String param2) {
+        PersonalInfoContact fragment = new PersonalInfoContact();
+        Bundle args = new Bundle();
+        args.putString(ARG_PARAM1, param1);
+        args.putString(ARG_PARAM2, param2);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

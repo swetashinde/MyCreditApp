@@ -62,6 +62,7 @@ public class CreditApplicationActivity extends AppCompatActivity implements
     @BindView(R.id.my_toolbar) Toolbar myToolbar;
     SmartFragmentStatePagerAdapter myViewPagerSmartAdapter;
     @BindView(amvMenu) ActionMenuView actionMenuView;
+    //@BindView(R.id.spinner) Spinner spinner;
 
 
     @Override
@@ -84,6 +85,42 @@ public class CreditApplicationActivity extends AppCompatActivity implements
 
         myViewPagerSmartAdapter = new MyViewPagerSmartAdapter(getSupportFragmentManager());
         viewPager.setAdapter(myViewPagerSmartAdapter);
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            float sumPositionAndPositionOffset;
+            boolean scrollRight = false;
+
+            @Override public void onPageScrolled(int position, float positionOffset,
+                int positionOffsetPixels) {
+
+                if(position+positionOffset > sumPositionAndPositionOffset){
+                    //swipe right to left
+                    scrollRight = true;
+                }else{
+                    //swipe left to right
+                    scrollRight = false;
+                }
+
+                sumPositionAndPositionOffset = position + positionOffset;
+
+            }
+
+            @Override public void onPageSelected(int position) {
+
+                //add the skip logic ...
+                if(position == 10 && scrollRight){
+                    viewPager.setCurrentItem(14,true);
+                }
+
+            }
+
+            @Override public void onPageScrollStateChanged(int state) {
+
+            }
+        });
+
+        viewPager.setOffscreenPageLimit(2);
+
+        //this.spinner.setOnItemSelectedListener(this);
     }
 
     @Override
@@ -191,4 +228,6 @@ public class CreditApplicationActivity extends AppCompatActivity implements
     @Override public void onRetirementFragmentInteraction(Uri uri) {
 
     }
+
+
 }

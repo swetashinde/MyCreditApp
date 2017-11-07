@@ -16,6 +16,8 @@ import com.example.swetashinde.mycreditapp.fragments.ResidenceInfoType;
 import com.example.swetashinde.mycreditapp.fragments.RetirementInfo;
 import com.example.swetashinde.mycreditapp.fragments.Review;
 import com.example.swetashinde.mycreditapp.fragments.SSN;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -103,15 +105,28 @@ public class MyViewPagerSmartAdapter extends SmartFragmentStatePagerAdapter {
 
 
 
+
         Page p = pages.get(position);
         Log.v(TAG,"page number is "+p.getPageNumber());
+
 
         Class clazz = p.getFragmentClass();
         Log.v(TAG,"page class  is "+p.getFragmentClass().getCanonicalName());
 
+
+
         try {
 
             //calling static method using reflection ...
+            try {
+                    Method method = clazz.getMethod("newInstance",clazz);
+                    method.invoke(null,"hello","test");
+
+            }catch (InvocationTargetException e) {
+                e.printStackTrace();}
+            catch (NoSuchMethodException e) {
+                e.printStackTrace();
+            }
             Fragment f = (Fragment) clazz.newInstance();
 
             return f;
